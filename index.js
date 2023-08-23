@@ -11,7 +11,7 @@ for (var i = 0; i < DrumBtns; i++) {
     
 }
 
-//Dectecting Keyboard press
+//Code for detecting when buttons are pressed
 
 document.addEventListener("keypress", function(event) {
   PlaySound(event.key);
